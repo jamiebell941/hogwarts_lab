@@ -1,0 +1,6 @@
+<h1>Houses</h1>
+<% @houses.each do |house| %>
+<p>Name: <%= house.name %></p>
+<p>Logo: <img src="<%= house.logo_url %>" alt=""></p>
+<hr>
+<% end %>
